@@ -76,10 +76,6 @@ def main():
                 if not missing:
                     matches.append(shipper)
                     match_counts[shipper] += 1
-                    # print(f"  Matches {shipper}")
-                # else:
-                    # print(f"  Does not match {shipper}")
-                    # print(f"    Missing keywords: {', '.join(missing)}")
 
             if matches:
                 print(f"  Document matches: {', '.join(matches)}")
